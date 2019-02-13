@@ -1,0 +1,19 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:v="clr-namespace:AvaloniaApplication1.Views;assembly=AvaloniaApplication1"
+        xmlns:vm="clr-namespace:AvaloniaApplication1.ViewModels;assembly=AvaloniaApplication1"
+        Icon="resm:AvaloniaApplication1.Assets.avalonia-logo.ico"
+        Title="AvaloniaApplication1" Width="400" Height="210">
+
+	<Design.DataContext>
+		<vm:MainWindowViewModel/>
+	</Design.DataContext>
+
+	<DockPanel>
+		<Button Click="ButtonClick"
+				HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+			Hello?
+		</Button>
+	</DockPanel>
+</Window>
